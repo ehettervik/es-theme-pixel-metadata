@@ -1,4 +1,4 @@
-Theme 'pixel' Meta-data Edition v1.92 - 10-30-2016 by Rookervik
+Theme 'pixel' Meta-data Edition v1.9.3 - 11-7-2016 by Rookervik
 
 Thanks to muriani for the super-sexy Sega CD logo! 
 Thanks to Omnija for helping me fix some code errors.
@@ -13,6 +13,7 @@ Updates:
 - October 25th, 2016: Added European/Japanese Super Nintendo.
 - October 26th, 2016: Added SNK MVS and PC Engine CD-ROM. Renamed pcecd to pce-cd and tg16 to tg-16.
 - October 30th, 2016: Set up metadata for this theme. Original Pixel theme not affected.
+- November 9th, 2016: Added Stratagus, SuperGrafx, Oric, Channel F, Mega-CD, and BBC Micro.
 
 
 
