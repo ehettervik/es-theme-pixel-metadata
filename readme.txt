@@ -1,4 +1,4 @@
-Theme 'pixel' Meta-data Edition v1.9.3 - 11-7-2016 by Rookervik
+Theme 'pixel' Meta-data Edition v1.10 - 01-03-2017 by Rookervik
 
 Thanks to muriani for the super-sexy Sega CD logo! 
 Thanks to Omnija for helping me fix some code errors.
@@ -14,27 +14,17 @@ Updates:
 - October 26th, 2016: Added SNK MVS and PC Engine CD-ROM. Renamed pcecd to pce-cd and tg16 to tg-16.
 - October 30th, 2016: Set up metadata for this theme. Original Pixel theme not affected.
 - November 9th, 2016: Added Stratagus, SuperGrafx, Oric, Channel F, Mega-CD, and BBC Micro.
+- January 3rd, 2016: Added Macintosh Plus/SE, Updated logo graphics, changed license
 
 
 
 License
 =======
-ALLOWED:      	- Share and duplicate as it is
+DO NOT modify this theme or use any assets in other themes or projects.
+Graphics Copyright ©2017 Eric Hettervik
 
-              		- Edit, alter, change it
-
-
-
-REQUIREMENTS: 	- Attribution, give credit to the creator
-
-              		- Indicate changes to it
-
-              		- Publish the changes under the same license
-
-
-
-PROHIBITED:   	- Commercial distribution
-
+Note: MetaPixel author asked for permission to use assets and was given permission, however: 
+New Logos and graphics added on or after 01/02/2017 may not be used.
 
 LOGO NOTICE:
 The used logos and trademarks are copyright of their respective owners.
