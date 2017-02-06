@@ -1,4 +1,4 @@
-Theme 'pixel' Meta-data Edition v1.10 - 01-03-2017 by Rookervik
+Theme 'pixel' Meta-data Edition v1.12 - 01-05-2017 by Rookervik
 
 Thanks to muriani for the super-sexy Sega CD logo! 
 Thanks to Omnija for helping me fix some code errors.
@@ -15,6 +15,7 @@ Updates:
 - October 30th, 2016: Set up metadata for this theme. Original Pixel theme not affected.
 - November 9th, 2016: Added Stratagus, SuperGrafx, Oric, Channel F, Mega-CD, and BBC Micro.
 - January 3rd, 2016: Added Macintosh Plus/SE, Updated logo graphics, changed license
+- January 5th, 2016: Added Megadrive 32x, snesEU, Mega-CD, PC-FX.
 
 
 
