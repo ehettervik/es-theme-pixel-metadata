@@ -1,23 +1,23 @@
-Theme 'pixel' Meta-data Edition v1.12 - 01-05-2017 by Rookervik
+Theme 'pixel' v1.4 - 11/05/2017 by Rookervik
 
 Thanks to muriani for the super-sexy Sega CD logo! 
 Thanks to Omnija for helping me fix some code errors.
-
+Thanks to Nismo for video support.
 
 Updates:
-- September 1st, 2016: Added TI-99/4A.
-- August 22nd, 2016: Added TRS-80.
-- May 29th, 2016: Added AGS, Steam, and Desktop systems.
-- April  3rd, 2016: Added support for Pipplware.
-- September 1st, 2016: Added TI-99/4A.
-- October 25th, 2016: Added European/Japanese Super Nintendo.
-- October 26th, 2016: Added SNK MVS and PC Engine CD-ROM. Renamed pcecd to pce-cd and tg16 to tg-16.
-- October 30th, 2016: Set up metadata for this theme. Original Pixel theme not affected.
-- November 9th, 2016: Added Stratagus, SuperGrafx, Oric, Channel F, Mega-CD, and BBC Micro.
-- January 3rd, 2016: Added Macintosh Plus/SE, Updated logo graphics, changed license
-- January 5th, 2016: Added Megadrive 32x, snesEU, Mega-CD, PC-FX.
-
-
+- 11/05/2017: All xmls cleaned up, repositioning of elements, color tweaks and selector graphic.
+- 10/29/2017: Updated Carousel and added Video code from Nismo.
+- 10/26/2017: Added First Implementation of Collections.
+- 02/-6/2017: Added PC-FX.
+- 02/04/2017: Updated Atari 2600 logo. Added Mega-CD and Megadrive 32x. Moved European systems into their own folders.
+- 01/01/2017: Massive Logo overhaul. Changed License. Added Mac Plus/SE.
+- 11/09/2016: Added Stratagus, SuperGrafx, Oric, Channel F, Mega-CD, and BBC Micro.
+- 10/26/2016: Added SNK MVS and PC Engine CD-ROM. Renamed pcecd to pce-cd and tg16 to tg-16.
+- 10/25/2016: Added European/Japanese Super Nintendo.
+- 09/01/2016: Added TI-99/4A.
+- 08/22/2016: Added TRS-80.
+- 05/29/2016: Added AGS, Steam, and Desktop systems.
+- 04/03/2016: Added support for Pipplware.
 
 License
 =======
