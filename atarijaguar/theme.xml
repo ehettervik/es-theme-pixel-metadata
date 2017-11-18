@@ -56,15 +56,8 @@
 		<textlist name="gamelist">
 			<selectedColor>${selectColor}</selectedColor>
 		</textlist>
-		
 
-		<image name="Bottom Console Image" extra="true">
-			<path>./console.png</path>
-		</image>
 
-		<text name="System_Desc" extra="true">
-			<text>Released: 1993. Originally, 67 Cartridge games and 15 CD-based.</text>
-		</text>	
 
 
 	</view>

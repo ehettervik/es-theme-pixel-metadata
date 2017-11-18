@@ -56,15 +56,8 @@
 		<textlist name="gamelist">
 			<selectedColor>${selectColor}</selectedColor>
 		</textlist>
-		
 
-		<image name="Bottom Console Image" extra="true">
-			<path>./console.png</path>
-		</image>
 
-		<text name="System_Desc" extra="true">
-			<text>Nintendo Game Boy Color. 1998. Up to 56 colors @ 160x144 pixels.</text>
-		</text>	
 
 
 	</view>

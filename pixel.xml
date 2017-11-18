@@ -1,8 +1,8 @@
 <!--
-theme name:		Pixel
-version:		1.4
-author:			Eric Hettervik, video support by Nismo.
-license:		creative commons CC-BY-NC-SA
+theme name:		Pixel -Metadata-
+version:		1.10
+author:			Eric Hettervik
+license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 -->
 
 <theme>
@@ -59,7 +59,6 @@ license:		creative commons CC-BY-NC-SA
 			<size>1 1</size>
 			<path>./art/systemfront.png</path>
 		</image>
-
 	</view>
 
     <view name="basic">
@@ -136,7 +135,7 @@ license:		creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 		</image>
 		
-		<image name="background">
+		<image name="background" extra="true">
 			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
@@ -153,8 +152,8 @@ license:		creative commons CC-BY-NC-SA
 		</image>		
 	
 		<image name="md_image">
-			<pos>0.766 0.322</pos>
-			<maxSize>0.366 0.480</maxSize>
+			<pos>0.771 0.219</pos>
+			<maxSize>0.384 0.322</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
@@ -163,14 +162,14 @@ license:		creative commons CC-BY-NC-SA
 			<size>0.483 0.63</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.027</horizontalMargin>
-			<lineSpacing>2.02</lineSpacing>
+<!--			<lineSpacing>2.02</lineSpacing> -->
 			<fontPath>./art/font.ttf</fontPath>
 			<fontSize>0.03</fontSize>
 			<selectorImagePath>./art/selector.png</selectorImagePath>
 			<selectorImageTile>false</selectorImageTile>
 			<selectorOffsetY>0.0075</selectorOffsetY>
 			<selectorHeight>0.0295</selectorHeight>
-			<selectorColor>ffffff</selectorColor>
+			<selectorColor>${themeColor}20</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>871F78</secondaryColor>
@@ -178,54 +177,77 @@ license:		creative commons CC-BY-NC-SA
 			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
 		</textlist>
 		
-		<image name="Bottom Console Image" extra="true">
-			<tile>false</tile>
-			<pos>0.902 0.781</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.114 0.202</maxSize>
-		</image>
-		
-		<text name="System_Desc" extra="true">
-			<text>Nintendo Game Boy. Released in 1989. Displayed 4 colors at 160x144 pixels.</text>
-			<forceUppercase>0</forceUppercase>
-			<size>0.262 0.202</size>
-			<pos>0.568 0.678</pos>
-			<color>ffffff</color>
-			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<alignment>center</alignment>
-		</text>	
-
-		<text name="md_lbl_playcount">
-			<color>ffffff</color>
+<!--         Start Meta Data                  -->	
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_description">
 			<pos>1 1</pos>
-			<!--- This will enable Player Count under the screenshot --->
-			<!---<pos>0.686 0.573</pos>--->
-			<fontSize>0.03</fontSize>
-			<forceUppercase>1</forceUppercase>
+			<size>0.192 0.030</size>
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.025</fontSize>
+		</text>
+	
+
+		<datetime name="md_releasedate">
+			<color>ffffff</color>
+			<pos>0.566 0.465</pos>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+		
+		<text name="md_developer">
+			<pos>0.566 0.524</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.566 0.568</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<color>ffffff</color>
+			<pos>0.566 0.601</pos>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<pos>0.774 0.477</pos>
 		</text>
 
-		<text name="md_playcount">
-			<color>ffffff</color>
-			<pos>1 1</pos>
-			<!--- This will enable Player Count under the screenshot.--->
-			<!---<pos>0.830 0.567</pos>--->
-			<fontSize>0.03</fontSize>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-		</text>			
+		<text name="md_players">
+			<pos>0.845 0.477</pos>
+		</text>
 		
+		<text name="md_publisher">
+			<pos>0.774 0.523</pos>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>0.774 0.568</pos>
+			<size>0.192 0.030</size>
+			<filledPath>./art/star_filled.svg</filledPath>
+			<unfilledPath>./art/star_empty.svg</unfilledPath>
+		</rating>
+		
+		<text name="md_playcount">
+			<pos>0.774 0.615</pos>
+		</text>	
+
+		<text name="md_description">
+			<pos>0.567 0.663</pos>
+			<size>0.400 0.209</size>
+		</text>
+
 	</view>	
-	
+
 	<view name="video">
 	
 		<video name="md_video">
-			<pos>0.766 0.322</pos>
+			<pos>0.771 0.219</pos>
+			<maxSize>0.384 0.322</maxSize>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.366 0.480</maxSize>
 			<delay>2</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
@@ -236,30 +258,4 @@ license:		creative commons CC-BY-NC-SA
 			<maxSize>0.3 0.1</maxSize>
 		</image>
 	</view>
-		
-	<view name="basic, detailed, video">
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
-			<color>ffffff</color>
-			<pos>1 1</pos>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-		</text>
-
-		
-		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
-			<color>ffffff</color>
-			<pos>1 1</pos>
-			<forceUppercase>1</forceUppercase>
-			<fontPath>./art/font.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-		</text>
-		
-		<rating name="md_rating">
-			<filledPath>./art/invisible.png</filledPath>
-			<unfilledPath>./art/invisible.png</unfilledPath>
-		</rating>
-
-	</view>	
-	
-</theme>
+	</theme>
