@@ -1,6 +1,6 @@
 <!--
 theme name:		Pixel -Metadata-
-version:		1.10
+version:		1.4
 author:			Eric Hettervik
 license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 -->
@@ -151,12 +151,6 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 			<path>./art/border.png</path>
 		</image>		
 	
-		<image name="md_image">
-			<pos>0.771 0.219</pos>
-			<maxSize>0.384 0.322</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-		
 		<textlist name="gamelist">
 			<pos>0.034 0.258</pos>
 			<size>0.483 0.63</size>
@@ -242,6 +236,17 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 
 	</view>	
 
+	
+	<view name="detailed">
+	
+		<image name="md_image">
+			<pos>0.771 0.219</pos>
+			<maxSize>0.384 0.322</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+	
+	</view>
+	
 	<view name="video">
 	
 		<video name="md_video">

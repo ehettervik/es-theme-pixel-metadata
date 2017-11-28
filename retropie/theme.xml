@@ -67,11 +67,57 @@
 		<text name="System_Desc" extra="true">
 			<pos>1 1</pos>
 		</text>	
+		
+<!--  === REPOSITION METADATA START === -->
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_description">
+			<pos>1 1</pos>
+		</text>
+	
+
+		<datetime name="md_releasedate">
+			<pos>1 1</pos>
+		</datetime>
+		
+		<text name="md_developer">
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>1 1</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<pos>1 1</pos>
+		</text>
+
+		<text name="md_players">
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_publisher">
+			<pos>1 1</pos>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>1 1</pos>
+			<size>0.192 0.030</size>
+		</rating>
+		
+		<text name="md_playcount">
+			<pos>1 1</pos>
+		</text>	
+
+<!--  === REPOSITION METADATA END === -->
 
 		<text name="md_description">
 			<color>ffffff</color>
-			<pos>0.569 0.677</pos>
-			<size>0.380 0.204</size>
+			<pos>0.584 0.529</pos>
+			<size>0.366 0.325</size>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./../art/font.ttf</fontPath>
 			<alignment>center</alignment>
