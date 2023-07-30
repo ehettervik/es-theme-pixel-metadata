@@ -172,7 +172,7 @@ license:		PLEASE DO NOT MODIFY or use graphics in other projects.
 		</textlist>
 		
 <!--         Start Meta Data                  -->	
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_description">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_lastplayed, md_description">
 			<pos>1 1</pos>
 			<size>0.192 0.030</size>
 			<color>ffffff</color>
